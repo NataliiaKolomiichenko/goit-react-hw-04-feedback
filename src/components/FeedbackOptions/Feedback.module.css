@@ -1,0 +1,8 @@
+.btn {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn:not(:last-child) {
+    margin-right: 5px;
+}
