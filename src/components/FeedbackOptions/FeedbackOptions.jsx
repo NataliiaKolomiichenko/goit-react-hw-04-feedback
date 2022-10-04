@@ -3,7 +3,7 @@ import css from './Feedback.module.css'
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return options.map(option => {
-        return <button type="button" className={css.btn} key={option} onClick={onLeaveFeedback}>{option}</button>
+        return <button type="button" className={css.btn} name={option} key={option} onClick={onLeaveFeedback}>{option}</button>
     })
 }
 
